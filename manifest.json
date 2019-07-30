@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Twitch",
+    "version": "1.1",
+  
+    "description": "Twitch",
+  
+    "icons": {
+      "96": "icons/border-96.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://www.twitch.tv/*"],
+        "js": ["bundle.js"]
+      }
+    ],
+    "permissions": [
+      "<all_urls>"
+    ]
+  }

@@ -1,1 +1,2 @@
 # twitch-discord
+Use `node server` to launch the server, then install the extension and start watching a stream, your Twitch activity should appear on Discord. Note that images only support a limited amount of streamers and games.
